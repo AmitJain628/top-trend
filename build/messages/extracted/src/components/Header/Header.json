@@ -1,0 +1,44 @@
+[
+  {
+    "id": "header.brand",
+    "description": "Brand name displayed in header",
+    "defaultMessage": "Your Company Brand",
+    "file": "src/components/Header/Header.js",
+    "start": {
+      "line": 21,
+      "column": 9
+    },
+    "end": {
+      "line": 25,
+      "column": 3
+    }
+  },
+  {
+    "id": "header.banner.title",
+    "description": "Title in page header",
+    "defaultMessage": "React",
+    "file": "src/components/Header/Header.js",
+    "start": {
+      "line": 26,
+      "column": 15
+    },
+    "end": {
+      "line": 30,
+      "column": 3
+    }
+  },
+  {
+    "id": "header.banner.desc",
+    "description": "Description in header",
+    "defaultMessage": "Complex web apps made easy",
+    "file": "src/components/Header/Header.js",
+    "start": {
+      "line": 31,
+      "column": 14
+    },
+    "end": {
+      "line": 35,
+      "column": 3
+    }
+  }
+]

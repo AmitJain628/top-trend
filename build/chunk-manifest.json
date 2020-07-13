@@ -1,0 +1,55 @@
+{
+  "client": [
+    "/assets/vendors.chunk.js",
+    "/assets/client.js"
+  ],
+  "polyfills": [
+    "/assets/vendors~polyfills.chunk.js",
+    "/assets/polyfills.chunk.js"
+  ],
+  "graphql-tag": [
+    "/assets/vendors~graphql-tag.chunk.js"
+  ],
+  "home": [
+    "/assets/vendors~about~admin~contact~home~login~not-found~privacy~register.chunk.js",
+    "/assets/about~admin~contact~home~login~not-found~privacy~register.chunk.js",
+    "/assets/home.chunk.js"
+  ],
+  "contact": [
+    "/assets/vendors~about~admin~contact~home~login~not-found~privacy~register.chunk.js",
+    "/assets/about~admin~contact~home~login~not-found~privacy~register.chunk.js",
+    "/assets/contact.chunk.js"
+  ],
+  "login": [
+    "/assets/vendors~about~admin~contact~home~login~not-found~privacy~register.chunk.js",
+    "/assets/about~admin~contact~home~login~not-found~privacy~register.chunk.js",
+    "/assets/login.chunk.js"
+  ],
+  "register": [
+    "/assets/vendors~about~admin~contact~home~login~not-found~privacy~register.chunk.js",
+    "/assets/about~admin~contact~home~login~not-found~privacy~register.chunk.js",
+    "/assets/register.chunk.js"
+  ],
+  "about": [
+    "/assets/vendors~about~admin~contact~home~login~not-found~privacy~register.chunk.js",
+    "/assets/about~admin~contact~home~login~not-found~privacy~register.chunk.js",
+    "/assets/about~privacy.chunk.js",
+    "/assets/about.chunk.js"
+  ],
+  "privacy": [
+    "/assets/vendors~about~admin~contact~home~login~not-found~privacy~register.chunk.js",
+    "/assets/about~admin~contact~home~login~not-found~privacy~register.chunk.js",
+    "/assets/about~privacy.chunk.js",
+    "/assets/privacy.chunk.js"
+  ],
+  "admin": [
+    "/assets/vendors~about~admin~contact~home~login~not-found~privacy~register.chunk.js",
+    "/assets/about~admin~contact~home~login~not-found~privacy~register.chunk.js",
+    "/assets/admin.chunk.js"
+  ],
+  "not-found": [
+    "/assets/vendors~about~admin~contact~home~login~not-found~privacy~register.chunk.js",
+    "/assets/about~admin~contact~home~login~not-found~privacy~register.chunk.js",
+    "/assets/not-found.chunk.js"
+  ]
+}

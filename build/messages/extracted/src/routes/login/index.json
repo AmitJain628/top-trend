@@ -1,0 +1,16 @@
+[
+  {
+    "id": "login.title",
+    "description": "Log in page title",
+    "defaultMessage": "Log In",
+    "file": "src/routes/login/index.js",
+    "start": {
+      "line": 16,
+      "column": 9
+    },
+    "end": {
+      "line": 20,
+      "column": 3
+    }
+  }
+]
