@@ -19,7 +19,7 @@ class Home extends React.Component {
   static propTypes = {
     data: PropTypes.shape({
       loading: PropTypes.bool.isRequired,
-      news: PropTypes.arrayOf(
+      reactjsGetAllNews: PropTypes.arrayOf(
         PropTypes.shape({
           title: PropTypes.string.isRequired,
           link: PropTypes.string.isRequired,
@@ -31,7 +31,7 @@ class Home extends React.Component {
 
   render() {
     const {
-      data: { loading, news },
+      data: { loading, reactjsGetAllNews },
     } = this.props;
     return (
       <div className={s.root}>
@@ -39,7 +39,7 @@ class Home extends React.Component {
           <h1>React.js News</h1>
           {loading
             ? 'Loading...'
-            : news.map(item => (
+            : reactjsGetAllNews.map(item => (
                 <article key={item.link} className={s.newsItem}>
                   <h1 className={s.newsTitle}>
                     <a href={item.link}>{item.title}</a>
